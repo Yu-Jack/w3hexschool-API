@@ -20,7 +20,7 @@ API 連結：[https://raw.githubusercontent.com/hexschool/w3hexschool-API/master
 
 基本上如果您在報名 w3HexSchool 的時候，若「**您願意分享您的姓名(暱稱)在 OPEN API 上嗎？**」的欄位填寫的是 「**願意**」，此時系統就會自動帶上您的暱稱，結構如下：
 
-```json
+```javascript
 {
   "blogList": [ // 文章列表
     {
@@ -37,7 +37,7 @@ API 連結：[https://raw.githubusercontent.com/hexschool/w3hexschool-API/master
 
 假設若你勾選的是 「**不願意**」，那麼結構就會如下：
 
-```json
+```javascript
 {
   "blogList": [ // 文章列表
     {
